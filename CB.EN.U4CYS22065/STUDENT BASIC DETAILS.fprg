@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kolluru Srinivas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 10:50:46 AM"/>
+        <attribute name="created" value="S29sbHVydSBTcmluaXZhcztERVNLVE9QLTcwQ045TFQ7MjAyMi0xMC0yODsxMDo0MDo1OCBBTTszOTQx"/>
+        <attribute name="edited" value="S29sbHVydSBTcmluaXZhcztERVNLVE9QLTcwQ045TFQ7MjAyMi0xMC0yODsxMDo1MDo0NiBBTTsxOzQwNDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ROLLNUM" type="Integer" array="False" size=""/>
+            <input variable="ROLLNUM"/>
+            <declare name="NAME" type="String" array="False" size=""/>
+            <input variable="NAME"/>
+            <declare name="ADDRESS" type="String" array="False" size=""/>
+            <input variable="ADDRESS"/>
+            <declare name="BLOODGROUP" type="String" array="False" size=""/>
+            <input variable="BLOODGROUP"/>
+            <declare name="PHONENUM" type="Integer" array="False" size=""/>
+            <input variable="PHONENUM"/>
+            <declare name="DEPARTMENT" type="String" array="False" size=""/>
+            <input variable="DEPARTMENT"/>
+            <output expression="&quot;ROLLNUM&quot;&amp;ROLLNUM&amp;&#13;&#10;&quot; NAME&quot;&amp;NAME&amp;&#13;&#10;&quot; ADDRESS&quot;&amp;ADDRESS&amp;&#13;&#10;&quot; BLOODGROUP&quot;&amp;BLOODGROUP&amp;&#13;&#10;&quot; PHONENUM&quot;&amp;PHONENUM&amp;&#13;&#10;&quot; DEPARTMENT&quot;&amp;DEPARTMENT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
